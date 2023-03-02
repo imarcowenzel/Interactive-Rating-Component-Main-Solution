@@ -25,8 +25,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: (https://github.com/ohuttar/ohuttar.github.io/tree/main/interactiveRatingFEM)
-- Live Site URL: (https://ohuttar.github.io/interactiveRatingFEM/index.html)
+- Solution URL: ()
 
 ## My process
 
