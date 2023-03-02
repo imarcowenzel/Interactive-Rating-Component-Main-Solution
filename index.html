@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" type="image/png" href="images/favicon-32x32.png">
+  <title>Interactive Rating Component</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Overpass:wght@100;400&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+  <main>
+
+    <div data-mainCard class="card">
+
+      <div>
+        <div class="icon-circle"><img class="icon-star" src="images/icon-star.svg" alt="A Yellow Star"></div>
+      </div>
+
+      <h1>
+        How did we do?
+      </h1>
+
+      <p>
+        Please let us know how we did with your support request. All feedback is appreciated to help us improve our offering!
+      </p>
+
+      <div id="ratings" aria-label="Select a rating from one to five out of five">
+        <button data-btnRating class="btnRating">1</button>
+        <button data-btnRating class="btnRating">2</button>
+        <button data-btnRating class="btnRating">3</button>
+        <button data-btnRating class="btnRating">4</button>
+        <button data-btnRating class="btnRating">5</button>
+      </div>
+
+      <button data-btnSubmit id="btnSubmit">Submit</button>
+
+    </div>
+
+    <div data-thxCard class="card thank-you visually-hidden">
+
+      <img src="images/illustration-thank-you.svg" alt="A Illustration of a Smartphone">
+
+      <div class="selection">
+        <p data-ratingResultText></p>
+      </div>
+
+      <h1>
+        Thank you!
+      </h1>
+
+      <p>
+        We appreciate you taking the time to give a rating. If you ever need more support, don't hesitate to get in touch!
+      </p>
+
+    </div>
+
+  </main>
+  
+  <script src="js/main.js"></script> 
+</body>
+</html>
